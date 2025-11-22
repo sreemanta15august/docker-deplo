@@ -9,7 +9,7 @@ pipeline {
         
         stage('Clone Repo') {
             steps {
-                git clone 'https://github.com/Mudassir-dev0ps/docker-deplo.git'
+                git 'https://github.com/Mudassir-dev0ps/docker-deplo.git'
             }
         }
 
