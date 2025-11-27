@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "sreemanta15august/kyndryl-training:v1"
+        DOCKER_IMAGE = "sreemanta15august/kyndryl-training"
     }
 
     stages {
